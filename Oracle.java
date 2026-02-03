@@ -9,7 +9,7 @@
  */        import java.util.Scanner;
          import java.sql.*;
 
-public class databas {
+public class Oracle {
     
     /**
      * @param args the command line arguments
