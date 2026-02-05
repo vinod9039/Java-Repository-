@@ -9,17 +9,17 @@ package pakage;
  * @author user
  */
 public class Charreplace {
-    String Knowledge;
+    String str;
     
     
-    public Charreplace(String knowledeg)
+    public Charreplace(String str)
     {
-       this.Knowledge=knowledeg;
+       this.str=str;
     }
     public void replacechar(char ch,char ch1)
     {
-        StringBuilder sb=new StringBuilder(Knowledge);
-    for(int i=0;i<Knowledge.length();i++)
+        StringBuilder sb=new StringBuilder(str);
+    for(int i=0;i<str.length();i++)
     {
              if(ch==sb.charAt(i))
              {
@@ -29,15 +29,15 @@ public class Charreplace {
                   
              }
     }
-    Knowledge=sb.toString();
-    System.out.println(""+Knowledge);
+    str=sb.toString();
+    System.out.println(""+str);
     }
     
     public void str(String ch,String ch1)
     {
          // Knowledge=Knowledge.replace(ch, ch1);
-          Knowledge=Knowledge.replace(ch, ch1);
-          System.out.println(""+Knowledge);
+          str=str.replace(ch, ch1);
+          System.out.println(""+str);
     }
     
 }
